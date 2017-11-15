@@ -7,7 +7,6 @@
         <a href="teams.php">maak teams aan</a>
 
 <?php
-
     $hostname='localhost';
     $databasenaam='sport_pool';
     $username='root';
@@ -29,7 +28,6 @@
  //           <option>a</option>
  //           <option>b</option>
  //       </select>
-
 ?>
 
 

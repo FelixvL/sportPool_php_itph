@@ -17,6 +17,7 @@
         
     </head>
     <body>
+        <script type="text/javascript" src="sportPool.js"></script>
         <a href="index.php">terug</a>
         <form action="teams.php" method="get">
             Naam:<input type="text" name="naam">
