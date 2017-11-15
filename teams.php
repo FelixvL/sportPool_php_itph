@@ -17,6 +17,11 @@
         
     </head>
     <body>
+<<<<<<< HEAD
+        <script type="text/javascript" src="sportPool.js"></script>
+=======
+        <script> type="text/javascript" src="sportPool"</script>
+>>>>>>> master
         <a href="index.php">terug</a>
         <form action="teams.php" method="get">
             Naam:<input type="text" name="naam">

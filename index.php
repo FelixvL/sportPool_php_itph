@@ -21,7 +21,6 @@
 
 
 <?php
-
     $hostname='localhost';
     $databasenaam='sport_pool';
     $username='root';
