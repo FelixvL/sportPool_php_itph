@@ -2,10 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+        
+        
+        <link rel = "stylesheet" type = "text/css" href="SportPool.css">
+       
     </head>
+   
     <body>
         <a href="teams.php">maak teams aan</a>
-        <br> kleine verbetering aa && BB
+        <div><br> kleine verbetering aa && BB</div>
 
 <?php
 
