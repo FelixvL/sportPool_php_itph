@@ -9,8 +9,16 @@
     </head>
    
     <body>
-        <a href="teams.php">maak teams aan</a>
-        <div><br> kleine verbetering aa && BB</div>
+
+        <!--<a href="teams.php">maak teams aan</a>-->
+        <form action="teams.php" method="get">
+            <button type=submit value="teams"  >  teams aanmaken </button>
+        </form>
+            
+            
+        
+        <br> kleine verbetering aa
+
 
 <?php
 
@@ -34,9 +42,9 @@
 
 ?>
         <br>
-        <span>Copyright klas php ITPH</span>
+       
 
 
-
+        <?php include 'footer.php'; ?>
     </body>
 </html>
