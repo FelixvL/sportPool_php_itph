@@ -2,8 +2,14 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+        
+        
+        <link rel = "stylesheet" type = "text/css" href="SportPool.css">
+       
     </head>
+   
     <body>
+
         <!--<a href="teams.php">maak teams aan</a>-->
         <form action="teams.php" method="get">
             <button type=submit value="teams"  >  teams aanmaken </button>
@@ -12,6 +18,7 @@
             
         
         <br> kleine verbetering aa
+
 
 <?php
 
