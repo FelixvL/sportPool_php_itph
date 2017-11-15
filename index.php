@@ -5,7 +5,8 @@
     </head>
     <body>
         <a href="teams.php">maak teams aan</a>
-        <br> kleine verbetering BB
+        <br> kleine verbetering aa && BB
+
 <?php
 
     $hostname='localhost';
