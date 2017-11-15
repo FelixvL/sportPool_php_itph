@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Sportpool ITPH</title>
     </head>
     <body>
         <a href="teams.php">maak teams aan</a>
