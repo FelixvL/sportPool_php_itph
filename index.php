@@ -25,13 +25,10 @@
     }
     echo "</select>";
         
- //       <select>
- //           <option>a</option>
- //           <option>b</option>
- //       </select>
 
 ?>
-
+        <br>
+        <span>Copyright klas php ITPH</span>
 
 
 
