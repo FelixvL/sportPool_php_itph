@@ -1,0 +1,363 @@
+    1  ?
+    2  ls
+    3  ls -ltr
+    4  pwd
+    5  ls -ltr
+    6  pwd
+    7  cd c:
+    8  pwd
+    9  pwd
+   10  cd /
+   11  pwd
+   12  cd c
+   13  pwd
+   14  mkdir gitoefening
+   15  cd gitoefening/
+   16  pwd
+   17  cd /
+   18  cd c
+   19  ls
+   20  rmdir gitoefening/
+   21  pwd
+   22  mkdir _FILES
+   23  mkdir _FILES/gitoefening
+   24  cd _FILES/gitoefening/
+   25  cd ..
+   26  pwd
+   27  cd gitoefening/
+   28  vi text.txt 
+   29  cat text.txt 
+   30  git init
+   31  cat .git/
+   32  ls -ltria
+   33  git status
+   34  git add .
+   35  git status
+   36  vi text.txt 
+   37  git add .
+   38  git add .
+   39  git add text.txt 
+   40  vi newfile
+   41  git add newfile 
+   42  cat newfile 
+   43  strings newfile 
+   44  git status
+   45  cat text.txt 
+   46  git commit -am "eerste commit tijdens trainig"
+   47  git config --global user.name ahtec
+   48  git status
+   49  git config --global user.email "gerarddoets@gmail.com"
+   50  git commit -am "eerste commit tijdens trainig"
+   51  get status
+   52  git status
+   53  git status
+   54  git commit
+   55  git add .
+   56  git commit
+   57  git commit
+   58  git add .
+   59  git commit -am "laatste eerste commit tijdens trainig"
+   60  git push
+   61  git remote add origin https://github.com/ahtec/gitdemophp.git
+   62  git push text.txt
+   63  git push -u origin master
+   64  git push -u origin master
+   65  git push -u origin master
+   66  history
+   67  pwd
+   68  cd ..
+   69  mkdir newgitoef
+   70  cd ne
+   71  cd newgitoef/
+   72  git init
+   73  pwd
+   74  vi twedetext.txt
+   75  git status
+   76  pwd
+   77  git add twedetext.txt 
+   78  git status
+   79  history 
+   80  git status
+   81   git commit -am "eerste commit van tweede repository tijdens trainig"
+   82  git remote add origin https://github.com/ahtec/newrepository.git
+   83  git push -u origin master
+   84  history 
+   85  vi twedetext.txt
+   86  git status
+   87  git push -u origin master
+   88  git push -u origin master
+   89  git status
+   90   git commit -am "tweede commit van tweede repository tijdens trainig"
+   91  git push -u origin master
+   92  vi twedetext.txt
+   93   git commit -am "derde commit van tweede repository tijdens trainig"
+   94  git push -u origin master
+   95  exit
+   96  git init
+   97  ls
+   98  git add array.php 
+   99  git commit -m "first commit"
+  100  git remote add origin https://github.com/ahtec/showDate.git
+  101  git push -u origin master
+  102  git commit -m "2e first commit"
+  103  git push -u origin master
+  104  git push -u origin master
+  105  git commit -m "3e first commit"
+  106  git push -u origin master
+  107  git push -u origin master
+  108  git commit -m "3e first commit"
+  109  git commit -m "3e first commit"
+  110  ls
+  111  ls -l
+  112  git push -u origin master
+  113  git add array.php 
+  114  git remote add origin https://github.com/ahtec/showDate.git
+  115  git push -u origin master
+  116  git status
+  117  git push -u origin master
+  118  cat array.php 
+  119  git status
+  120  git commit -am "3e first commit"
+  121  git push -u origin master
+  122  git status
+  123  git commit -am "4e first commit"
+  124  git push -u origin master
+  125  git commit -am "5e first commit"
+  126  git push -u origin master
+  127  git status
+  128  git add celcius2fahrenheit.php 
+  129  git status
+  130  git commit -am "celsiuse first commit"
+  131  git push -u origin master
+  132  ls -l
+  133  cd ..
+  134  ls -l
+  135  cd xampp/
+  136  ls
+  137  ls
+  138  cd /c/xampp/htdocs/celcius
+  139  pwd
+  140  git init
+  141  ls
+  142  git add index.php 
+  143  git commit -am "first commit"
+  144  git remote add origin https://github.com/ahtec/celcius.git
+  145  git push -u origin master
+  146  pwd
+  147  git init
+  148  ls
+  149  git add calc.html 
+  150  git add disp_form.php 
+  151  git commit -m "first commit"
+  152  git remote add origin https://github.com/ahtec/weekopdracht1.git
+  153  git push -u origin master
+  154  git status
+  155  git init
+  156  ls
+  157  git add weekOefening1.php 
+  158  git comit -am "new versie"
+  159  git commit -am "new versie"
+  160  git status
+  161  git push -u origin master
+  162  cd ..
+  163  ls
+  164  cd weekopdrachten/
+  165  ls
+  166  git init
+  167  git add weekopdracht1.php 
+  168  git commit -m "first commit"
+  169  git remote add origin https://github.com/ahtec/weekopdrachten.git
+  170  git push -u origin master
+  171  git commit -m "first commit"
+  172  git push -u origin master
+  173  git commit -m "2e commit"
+  174  git push -u origin master
+  175  ls
+  176  cat weekopdracht1.php 
+  177  git add weekopdracht1.php 
+  178  git commit -m "2e commit"
+  179  git push -u origin master
+  180  git commit -m "3e commit"
+  181  git add weekopdracht1.php   ; 
+  182  git commit -m "3e commit"
+  183  git push -u origin master
+  184   git add weekopdracht1.php   ; git commit -m "3e commit" ; git push -u origin master
+  185   git add weekopdracht1.php   ; git commit -m "4e commit" ; git push -u origin master
+  186   git add weekopdracht1.php   ; git commit -m "5e commit" ; git push -u origin master
+  187   git add weekopdracht1.php   ; git commit -m "6e commit" ; git push -u origin master
+  188   git add weekopdracht1.php   ; git commit -m "6e commit" ; git push -u origin master
+  189   git add weekopdracht1.php   ; git commit -m "7e commit" ; git push -u origin master
+  190   git add weekopdracht1.php   ; git commit -m "8e commit" ; git push -u origin master
+  191   git add weekopdracht1.php   ; git commit -m "9e commit" ; git push -u origin master
+  192   git add weekopdracht1.php   ; git commit -m "10e commit" ; git push -u origin master
+  193   git add weekopdracht1.php   ; git commit -m "nu met logaritme" ; git push -u origin master
+  194   git add weekopdracht1.php   ; git commit -m "nu met kege;oppervlakte" ; git push -u origin master
+  195   git add weekopdracht1.php   ; git commit -m "nu met kegelinhoud" ; git push -u origin master
+  196   git add weekopdracht1.php   ; git commit -m "laatste van vandaag" ; git push -u origin master
+  197   git add weekopdracht1.php   ; git commit -m "inspringen gecorrigeerd laatste van vandaag" ; git push -u origin master
+  198   git add weekopdracht1.php   ; git commit -m "nu  met faculteit " ; git push -u origin master
+  199   git add weekopdracht1.php   ; git commit -m "nu  met lijstfaculteit " ; git push -u origin master
+  200   git add weekopdracht1.php   ; git commit -m "nu  met lijstfaculteit2 " ; git push -u origin master
+  201   git add weekopdracht1.php   ; git commit -m "nu  met lijstfaculteit2 " ; git push -u origin master
+  202   git add weekopdracht1.php   ; git commit -m "dynamisch functie naam " ; git push -u origin master
+  203   git add weekopdracht1.php   ; git commit -m "dynamisch functie2 naam " ; git push -u origin master
+  204   git add weekopdracht1.php   ; git commit -m "dynamisch functie3 naam " ; git push -u origin master
+  205   git add weekopdracht1.php   ; git commit -m "dynamisch functie4 naam " ; git push -u origin master
+  206   git add weekopdracht1.php   ; git commit -m "lijkt nu wel af " ; git push -u origin master
+  207   git add weekopdracht1.php   ; git commit -m "display voor faculteit resultaatweergave aangepast " ; git push -u origin master
+  208   git add weekopdracht1.php   ; git commit -m "display voor faculteit resultaatweergave aangepast2 " ; git push -u origin master
+  209  git status
+  210   git add weekopdracht1.php   ; git commit -m "display voor faculteit resultaatweergave aangepast3 " ; git push -u origin master
+  211   git add weekopdracht1.php   ; git commit -m "RekenMachineOpdracht week1 " ; git push -u origin master
+  212   git add zeeslag.php   ; git commit -m "Zeeslag1 " ; git push -u origin master
+  213   git add zeeslag.php   ; git commit -m "Zeeslag2 " ; git push -u origin master
+  214   git add zeeslag.php   ; git commit -m "Zeeslag3 " ; git push -u origin master
+  215   git add zeeslag.php   ; git commit -m "Zeeslag4 " ; git push -u origin master
+  216   git add zeeslag.php   ; git commit -m "Zeeslag5 " ; git push -u origin master
+  217   git add zeeslag.php   ; git commit -m "Zeeslag6" ; git push -u origin master
+  218   git add zeeslag.php   ; git commit -m "Zeeslag7" ; git push -u origin master
+  219   git add zeeslag.php   ; git commit -m "Zeeslag 8" ; git push -u origin master
+  220   git add zeeslag.php   ; git commit -m "Zeeslag 9" ; git push -u origin master
+  221   git add .   ; git commit -m "Zeeslag a" ; git push -u origin master
+  222   git add .   ; git commit -m "Zeeslag clicken is schieten" ; git push -u origin master
+  223   git add .   ; git commit -m "Zeeslag clicken is schieten, opmaak tabel" ; git push -u origin master
+  224   git add .   ; git commit -m "Zeeslag clicken is schieten, verdwijnen geraakte schepen" ; git push -u origin master
+  225   git add .   ; git commit -m "Zeeslag clicken is schieten, verdwijnen geraakte schepen a"  ; git push -u origin master
+  226   git add .   ; git commit -m "Schip verdwijnt "  ; git push -u origin master
+  227   git add .   ; git commit -m "Schip verdwijnt ,nu wel maar scherm moet beter ververst worden"  ; git push -u origin master
+  228   git add .   ; git commit -m "Schip verdwijnt serialize "  ; git push -u origin master
+  229   git add .   ; git commit -m "Schip verdwijnt aaserialize "  ; git push -u origin master
+  230   git add .   ; git commit -m "Schip verdwijnt schermopbouwaserialize "  ; git push -u origin master
+  231   git add .   ; git commit -m "opbouw gestroomlijnd "  ; git push -u origin master
+  232   git add .   ; git commit -m "nu met alert verslaglegging "  ; git push -u origin master
+  233   git add .   ; git commit -m "start invoerscher schepen "  ; git push -u origin master
+  234   git add .   ; git commit -m "bezig invoerscher schepen "  ; git push -u origin master
+  235   git add .   ; git commit -m "bezig invoeren  schepen "  ; git push -u origin master
+  236   git add .   ; git commit -m "invoeren  schepen werkt nu"  ; git push -u origin master
+  237   git add .   ; git commit -m "gezonken schepen herstellen"  ; git push -u origin master
+  238   git add .   ; git commit -m "Versie 0.1 klaar voor accp test"  ; git push -u origin master
+  239   git add .   ; git commit -m "Versie 0.1  kleurverandering in css"  ; git push -u origin master
+  240   git add .   ; git commit -m "Versie 0.2  docu en kleine aanpassingen"  ; git push -u origin master
+  241   git add .   ; git commit -m "Versie 0.3  invoer controles "  ; git push -u origin master
+  242  git init
+  243  git add .
+  244  git commit -am "first commit"
+  245  git remote add origin https://github.com/ahtec/weekopdracht3Form.git
+  246  git push -u origin master
+  247   git add .   ; git commit -m "Versie 0.1  progressss"  ; git push -u origin master
+  248   git add .   ; git commit -m "Versie 0.1  JA"  ; git push -u origin master
+  249   git add .   ; git commit -m "Versie 0.0 weeloepdracht3 form"  ; git push -u origin master
+  250   git add .   ; git commit -m "weekOpdracht3 Form sql "  ; git push -u origin master
+  251   git add .   ; git commit -m "a weekOpdracht3 Form sql "  ; git push -u origin master
+  252   git add .   ; git commit -m "b weekOpdracht3 Form sql "  ; git push -u origin master
+  253   git add .   ; git commit -m "c weekOpdracht3 Pers gefiled en gestoord , ook drop tabel en naamcontrole "  ; git push -u origin master
+  254   git add .   ; git commit -m "c weekOpdracht3 foutmelding als pers bestaat in DB "  ; git push -u origin master
+  255   git add .   ; git commit -m "nu met poging voor storen opjebct persoon in blob  "  ; git push -u origin master
+  256   git add .   ; git commit -m "nu twede met poging voor storen opjebct persoon in blob  "  ; git push -u origin master
+  257   git add .   ; git commit -m "nu met foutmelding   "  ; git push -u origin master
+  258   git add .   ; git commit -m "blob zoektocht   "  ; git push -u origin master
+  259   git add .   ; git commit -am "a  blob zoektocht   "  ; git push -u origin master
+  260   git add .   ; git commit -am "TYPE IN  taeble naat binary   blob zoektocht   "  ; git push -u origin master
+  261   git add .   ; git commit -am "serialize vergeten   "  ; git push -u origin master
+  262   git add .   ; git commit -am "serialize ennu pack vergeten   "  ; git push -u origin master
+  263   git add .   ; git commit -am " nu txt probeerselserialize ennu pack vergeten   "  ; git push -u origin master
+  264   git add .   ; git commit -am " conversion naar iest anders  "  ; git push -u origin master
+  265  git info
+  266  git 
+  267  git status
+  268  git init
+  269  git add .
+  270  git commit -m "first commit"
+  271  git remote add origin https://github.com/ahtec/memory.git
+  272  git push -u origin master
+  273  pwd
+  274   git add .   ; git commit -am " laatste stand "  ; git push -u origin master
+  275   git add .   ; git commit -am " v0.1 form weekopdracht "  ; git push -u origin master
+  276  pwd
+  277   git add .   ; git commit -am " v0.2 form naamvalidatie "  ; git push -u origin master
+  278   git add .   ; git commit -am " v0.3 form naamvalidatie "  ; git push -u origin master
+  279   git add .   ; git commit -am " v0.4 form naamvalidatie "  ; git push -u origin master
+  280   git add .   ; git commit -am " v0.5 laatste aanpassingen "  ; git push -u origin master
+  281  pwd
+  282  pwd
+  283   git add .   ; git commit -am "zelfde picture detected  "  ; git push -u origin master
+  284   git add .   ; git commit -am "v03 output xml en polijsten  "  ; git push -u origin master
+  285   git add .   ; git commit -am "v03 output xml en polijsten  "  ; git push -u origin master
+  286   git add .   ; git commit -am "v03 output xml en polijsten  "  ; git push -u origin master
+  287  git status
+  288  git push
+  289   git add .   ; git commit -am "v05 form oefw3 output xml en polijsten  "  ; git push -u origin master
+  290   git add .   ; git commit -am "v05 form oefw3 output xml en polijsten  "  ; git push -u origin master
+  291  git
+  292  git init
+  293  gir add .
+  294  git add .
+  295  git commit -am "v05 form oefw3 output xml en polijsten  "  ; git push -u origin master
+  296  git init
+  297  git add .
+  298  git remote add origin https://github.com/ahtec/weekopdrach3FormV2.git
+  299  git 
+  300  git help -a
+  301  git init
+  302  git init
+  303  git add .
+  304  git commit -am "v05 form oefw3 output xml en polijsten  " 
+  305  git remote add origin https://github.com/ahtec/weekopdrach3FormV2.git
+  306  git push -u origin master
+  307   git add .   ; git commit -am "memory plaatjes worden gematched  "  ; git push -u origin master
+  308   git add .   ; git commit -am "array in js  "  ; git push -u origin master
+  309   git add .   ; git commit -am "kliken lijkt te werken, optimaliseren  "  ; git push -u origin master
+  310   git add .   ; git commit -am "matchen lijkt te werken, optimaliseren  "  ; git push -u origin master
+  311   git add .   ; git commit -am "nu alle plaatje flippen als goed  "  ; git push -u origin master
+  312   git add .   ; git commit -am "nu2 alle plaatje flippen als goed  "  ; git push -u origin master
+  313   git add .   ; git commit -am "gtoter  alle plaatje flippen als goed  "  ; git push -u origin master
+  314   git add .   ; git commit -am "score en advies ingebouwed shufle array   "  ; git push -u origin master
+  315   git add .   ; git commit -am "last picture does not show problem  "  ; git push -u origin master
+  316   git add .   ; git commit -am "no solutin yet 4last picture does not show problem  "  ; git push -u origin master
+  317   git add .   ; git commit -am "bezig met timeoput of sttus complete last picture problem  "  ; git push -u origin master
+  318   git add .   ; git commit -am "status ed niet gelukt dit is een werkbare versie   "  ; git push -u origin master
+  319   git add .   ; git commit -am "de blob is gelukt  "  ; git push -u origin master
+  320   git add .   ; git commit -am "gekleurt en isset " ; git push -u origin master
+  321   git add .   ; git commit -am "gekleurt " ; git push -u origin master
+  322  pwd
+  323   git add .   ; git commit -am "start inloggen.php met ww" ; git push -u origin master
+  324   git add .   ; git commit -am "bezig ww checkinloggen.php met ww" ; git push -u origin master
+  325  git clone https://github.com/FelixvL/sportPool_php_itph
+  326  ls
+  327  ll
+  328  ls -ltria
+  329  git pull
+  330  ls
+  331  git pull
+  332  ls
+  333  cd sportPool_php_itph
+  334  ls
+  335  git pull
+  336  git status
+  337  git status
+  338  git status
+  339   git add .   ; git commit -am "inloggen.php met ww" ; git push -u origin master
+  340  git status
+  341  git status
+  342  ls 
+  343  cd sportPool_php_itph
+  344  git status
+  345  git pull
+  346  git pull
+  347  git checkout -b gerardAndTJonesFeature
+  348  git push
+  349   git push --set-upstream origin gerardAndTJonesFeature
+  350   git push --set-upstream origin gerardAndTJonesFeature
+  351  git checkout master
+  352  git pull
+  353  git checkout 
+  354  git checkout gerardAndTJonesFeature
+  355  git merge master
+  356  git push
+  357  git status
+  358  git add . 
+  359  git commit -am
+  360  git commit -am  "kleien toevoe"
+  361  git push
+  362  history 
+  363  history >  gitHistory
