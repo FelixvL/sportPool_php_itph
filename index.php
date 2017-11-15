@@ -29,9 +29,9 @@
 
 ?>
         <br>
-        <span>Copyright klas php ITPH</span>
+       
 
 
-
+        <?php include 'footer.php'; ?>
     </body>
 </html>
