@@ -25,14 +25,7 @@
     }
     echo "</select>";
         
-<<<<<<< HEAD
- //       <select>
- //           <option>a</option>
- //           <option>b</option>
- //       </select>
-=======
 
->>>>>>> master
 ?>
         <br>
         <span>Copyright klas php ITPH</span>
