@@ -5,7 +5,7 @@
     </head>
     <body>
         <a href="teams.php">maak teams aan</a>
-
+        <br> kleine verbetering 
 <?php
 
     $hostname='localhost';
@@ -25,13 +25,10 @@
     }
     echo "</select>";
         
- //       <select>
- //           <option>a</option>
- //           <option>b</option>
- //       </select>
 
 ?>
-
+        <br>
+        <span>Copyright klas php ITPH</span>
 
 
 
